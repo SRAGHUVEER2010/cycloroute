@@ -1,4 +1,5 @@
 import math
+
 #vector resolution
 def velocity_vector(speed, direction):
     direction_radians  = math.radians(direction)
@@ -22,6 +23,11 @@ def relative_direction(x_component_relative , y_component_relative):
     rel_direction_degrees = math.degrees(rel_direction_radian)
     rel_direction = rel_direction_degrees % 360
     return rel_direction
+#Speed conversion
+def speed_unit_conversion(wind_speed,cyclist_speed):
+    wind_speed *= 5/18
+    cyclist_speed *= 5/18
+    return wind_speed, cyclist_speed
 
 #Calculating final relative wind
 def relative_wind(wind_speed, wind_direction, cyclist_speed, cyclist_direction):
