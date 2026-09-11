@@ -22,6 +22,7 @@ def speed_unit_conversion(speed):
 def magnitude_relative_velocity(x_component_relative,y_component_relative):
     magnitude_velocity_unitkmph = math.sqrt(x_component_relative**2 + y_component_relative**2)
     magnitude_velocity = speed_unit_conversion(magnitude_velocity_unitkmph)
+
     return magnitude_velocity
 #Calculating direction of relative velocity
 def relative_direction(x_component_relative , y_component_relative):
