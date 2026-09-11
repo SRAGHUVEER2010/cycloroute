@@ -81,3 +81,6 @@ def test_relative_direction_diagonal():
     result = relative_direction(3, 4)
 
     assert result == pytest.approx(36.8699, abs=0.001)
+def test_relative_wind():
+    result = relative_wind(10, 5, 3, 2)
+    assert result == pytest.approx((7, 3))
