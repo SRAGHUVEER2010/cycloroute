@@ -24,10 +24,10 @@ def relative_direction(x_component_relative , y_component_relative):
     rel_direction = rel_direction_degrees % 360
     return rel_direction
 #Speed conversion
-def speed_unit_conversion(wind_speed,cyclist_speed):
-    wind_speed *= 5/18
-    cyclist_speed *= 5/18
-    return wind_speed, cyclist_speed
+def speed_unit_conversion(speed):
+    speed *= 5/18
+
+    return speed
 
 #Calculating final relative wind
 def relative_wind(wind_speed, wind_direction, cyclist_speed, cyclist_direction):
@@ -48,7 +48,9 @@ def relative_wind(wind_speed, wind_direction, cyclist_speed, cyclist_direction):
     magnitude = magnitude_relative_velocity(x_component_relative, y_component_relative)
     direction = relative_direction(x_component_relative, y_component_relative)
 
-    return magnitude, direction
+    magnitude_converted = speed_unit_conversion(magnitude)
+
+    return magnitude_converted, direction
 
 
 

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0c54ed9-b276-4340-acb6-480076be0dd5" name="Changes" comment="Testing aerodynamic drag version 2">
+    <list default="true" id="a0c54ed9-b276-4340-acb6-480076be0dd5" name="Changes" comment="Testing aerodynamic drag version testing5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycloroute/physics.py" beforeDir="false" afterPath="$PROJECT_DIR$/cycloroute/physics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycloroute/wind.py" beforeDir="false" afterPath="$PROJECT_DIR$/cycloroute/wind.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,61 +30,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000000012" />
-      <entry key="MS500" value="1.0027762544222267" />
-      <entry key="S2" value="1.4000909677767768" />
-      <entry key="S5" value="2.3128248518816363" />
-      <entry key="S10" value="3.316948849486892" />
-      <entry key="S30" value="5.062359490621421" />
-      <entry key="S60" value="5.960192894524717" />
-      <entry key="M2" value="7.444774973378355" />
-      <entry key="M5" value="15.901784270503684" />
-      <entry key="M10" value="31.532467105820295" />
-      <entry key="M15" value="43.017091201467224" />
-      <entry key="M30" value="61.452069476582416" />
-      <entry key="H1" value="74.75289204736444" />
-      <entry key="H2" value="82.80920256564502" />
-      <entry key="H4" value="87.25224319631624" />
-      <entry key="D1" value="91.18658264966005" />
-      <entry key="W1" value="91.88324263829604" />
+      <entry key="MS100" value="6.606873991788769E-34" />
+      <entry key="MS500" value="5.259895971567248E-7" />
+      <entry key="S2" value="0.061742091534039686" />
+      <entry key="S5" value="0.727714671704436" />
+      <entry key="S10" value="1.9124202254602627" />
+      <entry key="S30" value="4.100241628013987" />
+      <entry key="S60" value="5.695461573651355" />
+      <entry key="M2" value="9.048103929476508" />
+      <entry key="M5" value="17.258591686036635" />
+      <entry key="M10" value="28.28957877915044" />
+      <entry key="M15" value="39.288195349761864" />
+      <entry key="M30" value="64.6916173749666" />
+      <entry key="H1" value="89.6898242522116" />
+      <entry key="H2" value="107.7113571153822" />
+      <entry key="H4" value="118.60297593234017" />
+      <entry key="D1" value="128.8201219453891" />
+      <entry key="W1" value="130.68567590663017" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.881903541171173E-45" />
-      <entry key="MS500" value="1.3116227713526039E-9" />
-      <entry key="S2" value="0.006018001790982748" />
-      <entry key="S5" value="0.12961030177062552" />
-      <entry key="S10" value="0.37565842403791744" />
-      <entry key="S30" value="0.9632720572083389" />
-      <entry key="S60" value="1.3579768087342106" />
-      <entry key="M2" value="1.8205123233866682" />
-      <entry key="M5" value="3.546457665077228" />
-      <entry key="M10" value="5.978854627693838" />
-      <entry key="M15" value="7.5027527094593225" />
-      <entry key="M30" value="9.709798929285373" />
-      <entry key="H1" value="11.185178270533383" />
-      <entry key="H2" value="12.044753204136367" />
-      <entry key="H4" value="12.509655245244778" />
-      <entry key="D1" value="12.916439777446197" />
-      <entry key="W1" value="12.988016924405617" />
+      <entry key="MS100" value="1.0000000000000182" />
+      <entry key="MS500" value="1.0017848270512293" />
+      <entry key="S2" value="1.2055412696567989" />
+      <entry key="S5" value="1.5310795932476862" />
+      <entry key="S10" value="1.7287520799941147" />
+      <entry key="S30" value="1.901822564033158" />
+      <entry key="S60" value="2.035143494651595" />
+      <entry key="M2" value="2.560380140972393" />
+      <entry key="M5" value="3.9548269385106867" />
+      <entry key="M10" value="5.794397420099192" />
+      <entry key="M15" value="7.530041637073568" />
+      <entry key="M30" value="11.243698027744399" />
+      <entry key="H1" value="14.658172928252169" />
+      <entry key="H2" value="17.02561837718889" />
+      <entry key="H4" value="18.427238077850475" />
+      <entry key="D1" value="19.72505707873167" />
+      <entry key="W1" value="19.960395636435965" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9201876506248836" />
-      <entry key="MS500" value="0.9858081965719221" />
-      <entry key="S2" value="1.3742702600651446" />
-      <entry key="S5" value="2.3506804110743227" />
-      <entry key="S10" value="3.561642199249157" />
-      <entry key="S30" value="5.914799614548906" />
-      <entry key="S60" value="7.243478714715658" />
-      <entry key="M2" value="9.21526236948202" />
-      <entry key="M5" value="19.40846422981432" />
-      <entry key="M10" value="37.47693482681267" />
-      <entry key="M15" value="50.49059217984589" />
-      <entry key="M30" value="71.14251242702794" />
-      <entry key="H1" value="85.92677151123257" />
-      <entry key="H2" value="94.84782803856189" />
-      <entry key="H4" value="99.75870436879029" />
-      <entry key="D1" value="104.10247101608066" />
-      <entry key="W1" value="104.87118030941703" />
+      <entry key="MS100" value="4.437171988892562E-5" />
+      <entry key="MS500" value="0.13489519081192505" />
+      <entry key="S2" value="0.7673590119871186" />
+      <entry key="S5" value="1.8750029686570913" />
+      <entry key="S10" value="3.346665699926853" />
+      <entry key="S30" value="5.854694125965319" />
+      <entry key="S60" value="7.63740885224462" />
+      <entry key="M2" value="11.54011270098315" />
+      <entry key="M5" value="21.166642394301174" />
+      <entry key="M10" value="34.04873382938136" />
+      <entry key="M15" value="46.78747897079665" />
+      <entry key="M30" value="75.91215455012927" />
+      <entry key="H1" value="104.33280686847039" />
+      <entry key="H2" value="124.72811986745587" />
+      <entry key="H4" value="137.02541149675747" />
+      <entry key="D1" value="148.54432061791243" />
+      <entry key="W1" value="150.64594740916962" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -250,7 +250,7 @@
       <workItem from="1789003557187" duration="10000" />
       <workItem from="1789090082613" duration="1246000" />
       <workItem from="1789099227368" duration="557000" />
-      <workItem from="1789128232836" duration="1122000" />
+      <workItem from="1789128232836" duration="2380000" />
     </task>
     <task id="LOCAL-00001" summary="testing relative wind">
       <option name="closed" value="true" />
@@ -308,7 +308,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789128922592</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Testing aerodynamic drag version 3">
+      <option name="closed" value="true" />
+      <created>1789129363025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789129363025</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Testing aerodynamic drag version testing4">
+      <option name="closed" value="true" />
+      <created>1789129467733</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1789129467733</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Testing aerodynamic drag version testing5">
+      <option name="closed" value="true" />
+      <created>1789130625314</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1789130625314</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +356,10 @@
     <MESSAGE value="ADDING NEW TESTS" />
     <MESSAGE value="Testing aerodynamic drag" />
     <MESSAGE value="Testing aerodynamic drag version 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing aerodynamic drag version 2" />
+    <MESSAGE value="Testing aerodynamic drag version 3" />
+    <MESSAGE value="Testing aerodynamic drag version testing4" />
+    <MESSAGE value="Testing aerodynamic drag version testing5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing aerodynamic drag version testing5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cycloroute$pytest_for_tests_test_wind_test_relative_wind_headwind.coverage" NAME="pytest for tests.test_wind.test_relative_wind_headwind Coverage Results" MODIFIED="1789099450949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
