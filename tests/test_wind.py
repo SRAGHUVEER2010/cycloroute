@@ -5,17 +5,13 @@ from cycloroute.wind import (
     relative_velocity,
     magnitude_relative_velocity,
     relative_direction,
+    relative_wind
 )
 
 def test_magnitude_relative_velocity():
     result = magnitude_relative_velocity(3, 4)
 
     assert result == 5
-
-
-
-
-
 
 def test_velocity_vector_north():
     result = velocity_vector(10, 0)

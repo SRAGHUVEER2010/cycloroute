@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CSPROJECT.iml" filepath="$PROJECT_DIR$/.idea/CSPROJECT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cycloroute.iml" filepath="$PROJECT_DIR$/.idea/cycloroute.iml" />
     </modules>
   </component>
 </project>
