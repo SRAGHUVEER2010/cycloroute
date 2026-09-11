@@ -43,7 +43,7 @@ def test_relative_velocity():
     assert result == pytest.approx((7, 3))
 
 
-def test_magnitude_relative_velocity():
+def test_of_magnitude_relative_velocity():
     result = magnitude_relative_velocity(3, 4)
 
     assert result == pytest.approx(5)
