@@ -7,21 +7,20 @@ def speed_unit_conversion(speed):
 #vector resolution
 def velocity_vector(speed, direction):
     direction_radians  = math.radians(direction)
-    x_component = speed * math.sin(direction_radians)
-    y_component = speed * math.cos(direction_radians)
+    x_component = speed_unit_conversion(speed * math.sin(direction_radians))
+    y_component = speed_unit_conversion(speed * math.cos(direction_radians))
     return x_component , y_component
 #calculating relative vector
 def relative_velocity(x_component_wind,y_component_wind,x_component_cyclist,y_component_cyclist):
 
-    x_component_relative = speed_unit_conversion(x_component_wind - x_component_cyclist)
-    y_component_relative = speed_unit_conversion(y_component_wind - y_component_cyclist)
+    x_component_relative = x_component_wind - x_component_cyclist
+    y_component_relative = y_component_wind - y_component_cyclist
 
     return x_component_relative , y_component_relative
 
 #calculating magnitude of relative velocity
 def magnitude_relative_velocity(x_component_relative,y_component_relative):
     magnitude_velocity = math.sqrt(x_component_relative**2 + y_component_relative**2)
-
 
     return magnitude_velocity
 #Calculating direction of relative velocity
