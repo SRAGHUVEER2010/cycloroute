@@ -30,8 +30,6 @@ def relative_direction(x_component_relative , y_component_relative):
     rel_direction_degrees = math.degrees(rel_direction_radian)
     rel_direction = rel_direction_degrees % 360
     return rel_direction
-#Speed conversion
-
 
 #Calculating final relative wind
 def relative_wind(wind_speed, wind_direction, cyclist_speed, cyclist_direction):
