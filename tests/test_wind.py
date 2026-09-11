@@ -77,7 +77,17 @@ def test_relative_direction_diagonal():
     result = relative_direction(3, 4)
 
     assert result == pytest.approx(36.8699, abs=0.001)
-def test_relative_wind():
-    result = relative_wind(10, 5, 3, 2)
+def test_relative_wind_tailwind():
+    # wind and cyclist both heading north (0°), wind is 5 km/h faster
+    result = relative_wind(20, 0, 15, 0)
 
-    assert result == pytest.approx((7, 3))
+    assert result == pytest.approx((5.0, 0.0))
+
+
+def test_relative_wind_headwind():
+    # wind blowing from the south (180°) straight at a cyclist heading north (0°)
+    # cyclist moving north = wind vector (0, 10), wind vector (0, -10)
+    # relative = wind - cyclist = (0, -20) -> magnitude 20, hitting head-on
+    result = relative_wind(10, 180, 10, 0)
+
+    assert result == pytest.approx((20.0, 180.0))
