@@ -1,5 +1,7 @@
 import math
 
+from cycloroute.wind import magnitude_relative_velocity
+
 #predefining acceleration due to gravity
 g = 9.81
 #converting road gradient to radian angle measure
@@ -18,6 +20,6 @@ def rolling_resistance(angle_radians , mass , rolling_resistance_coefficient):
     rolling_force = mass * g * cos_angle * rolling_resistance_coefficient
     return rolling_force
 #Calculating Aerodynamic drag
-def aero_drag(air_density,coefficient_of_drag,frontal_area,magnitude):
-    aerodynamic_drag  = 0.5 * air_density * coefficient_of_drag * frontal_area * magnitude ** 2
+def aero_drag(air_density,coefficient_of_drag,frontal_area,magnitude_relative_wind_velocity):
+    aerodynamic_drag  = 0.5 * air_density * coefficient_of_drag * frontal_area * magnitude_relative_wind_velocity ** 2
     return aerodynamic_drag
