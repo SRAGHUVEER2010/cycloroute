@@ -13,9 +13,15 @@ def relative_velocity(x_component_wind,y_component_wind,x_component_cyclist,y_co
     y_component_relative = y_component_wind - y_component_cyclist
 
     return x_component_relative , y_component_relative
+#Converting unit of speed
+def speed_unit_conversion(speed):
+    speed *= 5/18
+
+    return speed
 #calculating magnitude of relative velocity
 def magnitude_relative_velocity(x_component_relative,y_component_relative):
-    magnitude_velocity = math.sqrt(x_component_relative**2 + y_component_relative**2)
+    magnitude_velocity_unitkmph = math.sqrt(x_component_relative**2 + y_component_relative**2)
+    magnitude_velocity = speed_unit_conversion(magnitude_velocity_unitkmph)
     return magnitude_velocity
 #Calculating direction of relative velocity
 def relative_direction(x_component_relative , y_component_relative):
@@ -24,10 +30,7 @@ def relative_direction(x_component_relative , y_component_relative):
     rel_direction = rel_direction_degrees % 360
     return rel_direction
 #Speed conversion
-def speed_unit_conversion(speed):
-    speed *= 5/18
 
-    return speed
 
 #Calculating final relative wind
 def relative_wind(wind_speed, wind_direction, cyclist_speed, cyclist_direction):
@@ -48,9 +51,9 @@ def relative_wind(wind_speed, wind_direction, cyclist_speed, cyclist_direction):
     magnitude = magnitude_relative_velocity(x_component_relative, y_component_relative)
     direction = relative_direction(x_component_relative, y_component_relative)
 
-    magnitude_converted = speed_unit_conversion(magnitude)
 
-    return magnitude_converted, direction
+
+    return magnitude, direction
 
 
 
