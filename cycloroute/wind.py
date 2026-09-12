@@ -51,7 +51,7 @@ def relative_wind(wind_speed, wind_direction, cyclist_speed, cyclist_direction):
 
 
 
-    return magnitude, direction
+    return speed_unit_conversion(magnitude), direction
 
 
 
