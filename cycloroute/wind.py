@@ -32,6 +32,10 @@ def relative_direction(x_component_relative , y_component_relative):
 
 #Calculating final relative wind
 def relative_wind(wind_speed, wind_direction, cyclist_speed, cyclist_direction):
+
+    wind_speed = speed_unit_conversion(wind_speed)
+    cyclist_speed = speed_unit_conversion(cyclist_speed)
+
     wind_vector = velocity_vector(wind_speed, wind_direction)
     cyclist_vector = velocity_vector(cyclist_speed, cyclist_direction)
 
@@ -51,7 +55,7 @@ def relative_wind(wind_speed, wind_direction, cyclist_speed, cyclist_direction):
 
 
 
-    return speed_unit_conversion(magnitude), direction
+    return magnitude, direction
 
 
 
