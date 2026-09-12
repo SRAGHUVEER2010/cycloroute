@@ -5,13 +5,16 @@ from cycloroute.wind import (
     relative_velocity,
     magnitude_relative_velocity,
     relative_direction,
-    relative_wind
+    relative_wind,
+    speed_unit_conversion,
 )
+
 
 def test_magnitude_relative_velocity():
     result = magnitude_relative_velocity(3, 4)
 
-    assert result == 5
+    assert result == pytest.approx(5)
+
 
 def test_velocity_vector_north():
     result = velocity_vector(10, 0)
@@ -43,12 +46,6 @@ def test_relative_velocity():
     assert result == pytest.approx((7, 3))
 
 
-def test_of_magnitude_relative_velocity():
-    result = magnitude_relative_velocity(3, 4)
-
-    assert result == pytest.approx(5)
-
-
 def test_relative_direction_north():
     result = relative_direction(0, 10)
 
@@ -77,17 +74,39 @@ def test_relative_direction_diagonal():
     result = relative_direction(3, 4)
 
     assert result == pytest.approx(36.8699, abs=0.001)
+
+
 def test_relative_wind_tailwind():
-    # wind and cyclist both heading north (0°), wind is 5 km/h faster
+    # Wind and cyclist both heading north.
+    # Wind = 20 km/h, cyclist = 15 km/h.
+    # Relative speed = 5 km/h = 1.388888... m/s
     result = relative_wind(20, 0, 15, 0)
 
-    assert result == pytest.approx((5.0, 0.0))
+    assert result == pytest.approx((1.3888888889, 0.0))
 
 
 def test_relative_wind_headwind():
-    # wind blowing from the south (180°) straight at a cyclist heading north (0°)
-    # cyclist moving north = wind vector (0, 10), wind vector (0, -10)
-    # relative = wind - cyclist = (0, -20) -> magnitude 20, hitting head-on
+    # Wind from south toward north-facing cyclist.
+    # Wind = 10 km/h southward, cyclist = 10 km/h northward.
+    # Relative speed = 20 km/h = 5.555555... m/s
     result = relative_wind(10, 180, 10, 0)
 
-    assert result == pytest.approx((20.0, 180.0))
+    assert result == pytest.approx((5.5555555556, 180.0))
+
+
+def test_speed_conversion():
+    result = speed_unit_conversion(18)
+
+    assert result == pytest.approx(5)
+
+
+def test_speed_conversion_36_kmh():
+    result = speed_unit_conversion(36)
+
+    assert result == pytest.approx(10)
+
+
+def test_speed_conversion_zero():
+    result = speed_unit_conversion(0)
+
+    assert result == pytest.approx(0)

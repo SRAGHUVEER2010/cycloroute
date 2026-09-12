@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0c54ed9-b276-4340-acb6-480076be0dd5" name="Changes" comment="Testing aerodynamic drag version testing  adding unit conversion polishing" />
+    <list default="true" id="a0c54ed9-b276-4340-acb6-480076be0dd5" name="Changes" comment="Testing aerodynamic drag version testing  adding unit conversion polishing v2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_wind.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_wind.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,63 +28,67 @@
     &quot;accountId&quot;: &quot;6485db5f-7b96-4340-a577-d05cd294dbf0&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000000004" />
-      <entry key="S30" value="1.0000212372685446" />
-      <entry key="S60" value="1.0142217669534914" />
-      <entry key="M2" value="1.4751823353275344" />
-      <entry key="M5" value="6.825675706327746" />
-      <entry key="M10" value="18.82205756695998" />
-      <entry key="M15" value="30.76492177593149" />
-      <entry key="M30" value="60.03403844023336" />
-      <entry key="H1" value="91.98828678280358" />
-      <entry key="H2" value="116.84732682761359" />
-      <entry key="H4" value="132.54848732479462" />
-      <entry key="D1" value="147.7122236926025" />
-      <entry key="W1" value="150.52480573198247" />
+      <entry key="MS100" value="1.790203961191411" />
+      <entry key="MS500" value="3.9819863352915603" />
+      <entry key="S2" value="10.894358579225639" />
+      <entry key="S5" value="22.97397846182345" />
+      <entry key="S10" value="33.07843024533257" />
+      <entry key="S30" value="43.8054968276987" />
+      <entry key="S60" value="47.29550296202884" />
+      <entry key="M2" value="50.183750556563005" />
+      <entry key="M5" value="56.69153721871424" />
+      <entry key="M10" value="66.40225793522742" />
+      <entry key="M15" value="76.65754395208714" />
+      <entry key="M30" value="105.73009927289945" />
+      <entry key="H1" value="142.93536275344655" />
+      <entry key="H2" value="175.0703010402485" />
+      <entry key="H4" value="196.60055122525878" />
+      <entry key="D1" value="218.21347834272805" />
+      <entry key="W1" value="222.30603491718085" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.8728745437849634E-66" />
-      <entry key="S2" value="3.704213479337827E-17" />
-      <entry key="S5" value="2.8625889749451027E-7" />
-      <entry key="S10" value="6.542875838870507E-4" />
-      <entry key="S30" value="0.1321291996609144" />
-      <entry key="S60" value="0.5384703424960104" />
-      <entry key="M2" value="1.3472933512686682" />
-      <entry key="M5" value="3.5626592098135594" />
-      <entry key="M10" value="6.458197751765007" />
-      <entry key="M15" value="8.80117794155497" />
-      <entry key="M30" value="13.769639126257012" />
-      <entry key="H1" value="18.65077948998485" />
-      <entry key="H2" value="22.24547807442481" />
-      <entry key="H4" value="24.453615028569757" />
-      <entry key="D1" value="26.54971109802075" />
-      <entry key="W1" value="26.935004901231775" />
+      <entry key="MS500" value="2.192622617943053E-269" />
+      <entry key="S2" value="6.84656480131131E-68" />
+      <entry key="S5" value="1.4285870200688399E-27" />
+      <entry key="S10" value="4.507743662569971E-14" />
+      <entry key="S30" value="5.3438787775784756E-5" />
+      <entry key="S60" value="0.010328885961490475" />
+      <entry key="M2" value="0.16575807310317617" />
+      <entry key="M5" value="1.6074838994323457" />
+      <entry key="M10" value="4.999932865081768" />
+      <entry key="M15" value="8.151526064746198" />
+      <entry key="M30" value="15.141611929661973" />
+      <entry key="H1" value="22.437027472772897" />
+      <entry key="H2" value="28.110424493059785" />
+      <entry key="H4" value="31.721023671511983" />
+      <entry key="D1" value="35.2345013938424" />
+      <entry key="W1" value="35.88927561730399" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8950250709279725" />
-      <entry key="MS500" value="0.9780634734473393" />
-      <entry key="S2" value="0.9944701686732144" />
-      <entry key="S5" value="0.9977846239104005" />
-      <entry key="S10" value="0.9994844711691054" />
-      <entry key="S30" value="1.1273143293764407" />
-      <entry key="S60" value="1.54323678225858" />
-      <entry key="M2" value="2.810030122972497" />
-      <entry key="M5" value="10.369824823683176" />
-      <entry key="M10" value="25.257811676515146" />
-      <entry key="M15" value="39.542804903573064" />
-      <entry key="M30" value="73.78247621077469" />
-      <entry key="H1" value="110.62356342688841" />
-      <entry key="H2" value="139.08321363264264" />
-      <entry key="H4" value="156.99673651149672" />
-      <entry key="D1" value="174.26094978142456" />
-      <entry key="W1" value="177.45966752917442" />
+      <entry key="MS100" value="1.6252270516359428" />
+      <entry key="MS500" value="3.9065047352188995" />
+      <entry key="S2" value="10.844539793497539" />
+      <entry key="S5" value="22.932046149095637" />
+      <entry key="S10" value="33.048013579457304" />
+      <entry key="S30" value="43.79200402826965" />
+      <entry key="S60" value="47.29724293885685" />
+      <entry key="M2" value="50.33679521225767" />
+      <entry key="M5" value="58.27673028127808" />
+      <entry key="M10" value="71.37707291041947" />
+      <entry key="M15" value="84.78355168311664" />
+      <entry key="M30" value="120.84806652619095" />
+      <entry key="H1" value="165.354286220102" />
+      <entry key="H2" value="203.16910281546706" />
+      <entry key="H4" value="228.31492526268846" />
+      <entry key="D1" value="253.4467335210801" />
+      <entry key="W1" value="258.1951288040507" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -93,32 +100,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.pytest for tests.test_wind.test_magnitude_relative_velocity.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for tests.test_wind.test_relative_wind.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for tests.test_wind.test_relative_wind_headwind.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for tests.test_wind.test_relative_wind_tailwind.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_wind.py.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/var/home/smorphian/cycloroute&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.pytest for tests.test_wind.test_magnitude_relative_velocity.executor": "Run",
+    "Python tests.pytest for tests.test_wind.test_relative_wind.executor": "Run",
+    "Python tests.pytest for tests.test_wind.test_relative_wind_headwind.executor": "Run",
+    "Python tests.pytest for tests.test_wind.test_relative_wind_tailwind.executor": "Run",
+    "Python tests.pytest in test_wind.py.executor": "Debug",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/var/home/smorphian/cycloroute",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.pytest for tests.test_wind.test_relative_wind_tailwind">
     <configuration name="pytest for tests.test_wind.test_magnitude_relative_velocity" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="cycloroute" />
@@ -248,6 +256,7 @@
       <workItem from="1789090082613" duration="1246000" />
       <workItem from="1789099227368" duration="557000" />
       <workItem from="1789128232836" duration="3931000" />
+      <workItem from="1789200154944" duration="1831000" />
     </task>
     <task id="LOCAL-00001" summary="testing relative wind">
       <option name="closed" value="true" />
@@ -385,7 +394,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789131938385</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Testing aerodynamic drag version testing  adding unit conversion polishing v2">
+      <option name="closed" value="true" />
+      <created>1789200214612</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1789200214612</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Testing aerodynamic drag version testing  adding unit conversion polishing v2">
+      <option name="closed" value="true" />
+      <created>1789200404371</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1789200404371</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,12 +439,13 @@
     <MESSAGE value="Testing aerodynamic drag version testing5" />
     <MESSAGE value="Testing aerodynamic drag version testing  adding unit conversion" />
     <MESSAGE value="Testing aerodynamic drag version testing  adding unit conversion polishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing aerodynamic drag version testing  adding unit conversion polishing" />
+    <MESSAGE value="Testing aerodynamic drag version testing  adding unit conversion polishing v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing aerodynamic drag version testing  adding unit conversion polishing v2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cycloroute$pytest_for_tests_test_wind_test_relative_wind_headwind.coverage" NAME="pytest for tests.test_wind.test_relative_wind_headwind Coverage Results" MODIFIED="1789099450949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cycloroute$pytest_for_tests_test_wind_test_relative_wind.coverage" NAME="pytest for tests.test_wind.test_relative_wind Coverage Results" MODIFIED="1789090780580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cycloroute$pytest_for_tests_test_wind_test_magnitude_relative_velocity.coverage" NAME="pytest for tests.test_wind.test_magnitude_relative_velocity Coverage Results" MODIFIED="1789099439590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cycloroute$pytest_for_tests_test_wind_test_relative_wind_tailwind.coverage" NAME="pytest for tests.test_wind.test_relative_wind_tailwind Coverage Results" MODIFIED="1789099459362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cycloroute$pytest_for_tests_test_wind_test_relative_wind_tailwind.coverage" NAME="pytest for tests.test_wind.test_relative_wind_tailwind Coverage Results" MODIFIED="1789200975475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
