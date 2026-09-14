@@ -1,6 +1,6 @@
 import math
 
-#hi
+
 
 #predefining acceleration due to gravity
 g = 9.81
