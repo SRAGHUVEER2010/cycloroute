@@ -44,3 +44,7 @@ def test_rollingresisttest():
     result = rolling_resistance(0 , 70, 0.005)
     assert result == pytest.approx(3.4335)
 
+if __name__ == "__main__":
+    import pytest
+    pytest.main([__file__])
+

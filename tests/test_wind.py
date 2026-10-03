@@ -110,3 +110,7 @@ def test_speed_conversion_zero():
     result = speed_unit_conversion(0)
 
     assert result == pytest.approx(0)
+
+if __name__ == "__main__":
+    import pytest
+    pytest.main([__file__])
