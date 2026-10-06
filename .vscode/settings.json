@@ -7,10 +7,11 @@
   ],
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
-  "python.autoComplete": "off",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.typeCheckingMode": "basic",
   "python.languageServer": "Pylance",
-  "python.linting.enabled": false,
-  "python.formatting.provider": "none",
-  "python.disableInstallationCheck": true,
-  "python.experiments.enabled": false
+  "pylance.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none"
+  }
 }
