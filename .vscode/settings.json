@@ -6,5 +6,11 @@
     "${workspaceFolder}"
   ],
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 1000
+  "files.autoSaveDelay": 1000,
+  "python.autoComplete": "off",
+  "python.languageServer": "Pylance",
+  "python.linting.enabled": false,
+  "python.formatting.provider": "none",
+  "python.disableInstallationCheck": true,
+  "python.experiments.enabled": false
 }
