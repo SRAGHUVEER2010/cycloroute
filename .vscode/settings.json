@@ -15,8 +15,9 @@
     "reportMissingModuleSource": "none"
   },
   "code-runner.executorMap": {
-    "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe -u $fullFileName"
+    "python": "cd $dir && .\\.venv\\Scripts\\python.exe -u $fileName"
   },
   "code-runner.runInTerminal": true,
-  "code-runner.clearPreviousOutput": false
+  "code-runner.clearPreviousOutput": false,
+  "code-runner.fileDirectoryAsCwd": true
 }
