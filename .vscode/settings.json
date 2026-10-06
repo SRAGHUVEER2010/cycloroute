@@ -13,5 +13,9 @@
   "pylance.analysis.diagnosticSeverityOverrides": {
     "reportMissingImports": "none",
     "reportMissingModuleSource": "none"
-  }
+  },
+  "code-runner.executorMap": {
+    "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe"
+  },
+  "code-runner.runInTerminal": true
 }
